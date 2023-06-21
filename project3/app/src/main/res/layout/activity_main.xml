@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width  ="match_parent"
+    android:layout_height ="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context =".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/activity1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chapter1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/btn_test"
+            android:layout_width="410dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/emergency1" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/btn_map"
+            android:layout_width="410dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/map1" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/btn_camera"
+            android:layout_width="410dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/indentification" />
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+</LinearLayout>

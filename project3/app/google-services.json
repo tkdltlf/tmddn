@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "627723975214",
+    "firebase_url": "https://mark1-1d06a-default-rtdb.firebaseio.com",
+    "project_id": "mark1-1d06a",
+    "storage_bucket": "mark1-1d06a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627723975214:android:f8028ea7fd458916c3fdbf",
+        "android_client_info": {
+          "package_name": "com.example.mark1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627723975214-mcndh6f214hq1a4oncnilfnajd3bprim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNLw6sUf6W62FrJEBUkym_oW9YsKMpQk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627723975214-mcndh6f214hq1a4oncnilfnajd3bprim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
